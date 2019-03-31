@@ -1,0 +1,51 @@
+tfoot, td, th, thead, tr {
+	vertical-align: middle;
+}
+
+.input_mod{
+	margin: -0.3em;
+	font-size: 20px;
+	height: 35px;
+	text-align: center;
+}
+
+input:focus.input_mod
+{
+	background-color: #FFFF8D ;
+}
+
+td{
+	font-size: 14px;
+	font-family: verdana;
+}
+
+.unselectable-setting{
+	cursor:pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+.unselectable-po{
+	cursor:pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.unselectable {
+	cursor:default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
